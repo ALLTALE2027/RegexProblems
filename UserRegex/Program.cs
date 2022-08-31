@@ -22,6 +22,11 @@
             //UC5
             regex.CheckPassword8Char("1234abcd");
 
+            //UC6
+            regex.CheckPasswordWithUpperCase("Awesome123");
+            regex.CheckPasswordWithUpperCase("awesome123");
+
+
 
         }
     }
