@@ -27,6 +27,9 @@
             regex.CheckPasswordWithUpperCase("awesome123");
 
 
+            //UC7
+            regex.CheckPasswordWithSingleNumber("Awesome1");
+            regex.CheckPasswordWithSingleNumber("Awesomeno");
 
         }
     }
