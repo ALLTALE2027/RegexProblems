@@ -15,6 +15,9 @@
 
             ///UC3
             regex.CheckEmail("abc.100@abc.com.au");
+
+            ///UC4
+            regex.CheckMobileNumber("91 9123456780");
         }
     }
 }
