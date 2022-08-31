@@ -13,11 +13,16 @@
             //UC2
             regex.CheckLastName("Deshmukh");
 
-            ///UC3
+            //UC3
             regex.CheckEmail("abc.100@abc.com.au");
 
-            ///UC4
+            //UC4
             regex.CheckMobileNumber("91 9123456780");
+
+            //UC5
+            regex.CheckPassword8Char("1234abcd");
+
+
         }
     }
 }
