@@ -5,10 +5,13 @@
         static void Main(string[] args)
         {
             Console.WriteLine("RegexProblems!!!!");
-
-            ////UC1 
             var regex = new UserRegisteration();
+            
+            //UC1 
             regex.CheckFirstName("Darshan");
+
+            //UC2
+            regex.CheckLastName("Deshmukh");
         }
     }
 }
