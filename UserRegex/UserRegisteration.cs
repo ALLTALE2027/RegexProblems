@@ -16,7 +16,7 @@ namespace UserRegex
         public Regex PasswordMinchar8 = new Regex(@"[A-Z a-z 0-9]{8,}");   
         public Regex PasswordUpperRegex = new Regex(@"(?=.*[A-Z])[A-Za-z0-9]{8,}");   
         public Regex PasswordDigitRegex = new Regex(@"(?=.*[0-9])[A-Za-z0-9]{8,}");   
-        public Regex PasswordSpeciaRegex = new Regex(@"(?=.*[#?!@$%^&*-])[A-Za-z0-9]{8,}");   
+        public Regex PasswordSpecialRegex = new Regex(@"(?=.*[#?!@$%^&*-])[A-Za-z0-9].{8,}");   
 
 
 
@@ -115,7 +115,7 @@ namespace UserRegex
         public void CheckPasswordWithSpecialChar(string pass)
         {
             Console.WriteLine("Password is : " + pass);
-            if (PasswordSpeciaRegex.IsMatch(pass))
+            if (PasswordSpecialRegex.IsMatch(pass))
             {
                 Console.WriteLine("Valid Password");
             }

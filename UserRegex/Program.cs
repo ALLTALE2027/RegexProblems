@@ -31,6 +31,8 @@
             regex.CheckPasswordWithSingleNumber("Awesome1");
             regex.CheckPasswordWithSingleNumber("Awesomeno");
 
+            //UC8
+            regex.CheckPasswordWithSpecialChar("123456@abcd");
         }
     }
 }
