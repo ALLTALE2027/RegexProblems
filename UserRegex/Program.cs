@@ -12,6 +12,9 @@
 
             //UC2
             regex.CheckLastName("Deshmukh");
+
+            ///UC3
+            regex.CheckEmail("abc.100@abc.com.au");
         }
     }
 }
